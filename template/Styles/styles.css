@@ -1850,36 +1850,29 @@ p.QuantityInput, p.AddCartButton {
 
 /* Custom Code */
 
-.Content .ShopByRoList li {
-    /*display: block;
-    float: none;
-    width: 100%;
-    border: 0;
-    border-bottom: 1px dotted #ccc;
-    min-height: 80px*/
-    
-    list-style: none;
-	float: left;
-	width: 124px;
-	font-size: 0.95em;
-	margin: 4px 4px 4px 5px;
-	padding: 4px;
-	overflow: hidden;
-	min-height: 17em;
-}
-
-.Content .ShopByRoList li .ProductImage {
+.Content .ShopByRo li {
     float: left;
+    width: auto;
+    height: 100px;
+    border-bottom: 1px dotted #ccc;
 }
 
-.ShopByRoList {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+.Content .ShopByRo li .ShopByRoImage {
+    float: left;
+    width: 400px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 10px;
 }
 
-.ShopByRoList a {
-	text-decoration: none;
+.Content .ShopByRo li .ShopByRoDetails {
+	text-align: center;
+	margin-top: 10px;
+	height: auto;
+	overflow: hidden;
 }
-    
-    
+
+.Content .ShopByRo li .ShopByRoDetails strong {
+	display: block;
+	margin-bottom: 10px;
+}
