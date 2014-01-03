@@ -203,8 +203,10 @@ html[xmlns] .slides {
 
 .slide-show-render .slides li {
   list-style: none;
-  width: 980px;
-  height: 450px;
+  /* Change height and width below as well */
+  width: 771px; /*980px;*/
+  height: 310px; /*454px;*/
+  
   margin: 0;
   padding: 0;
   display: block;
@@ -240,9 +242,10 @@ html[xmlns] .slides {
 
 .slide-show-render .slides {
   position: relative;
-  width: 980px;
-  height: 454px;
-  overflow: hidden; }
+  /* Change height and width above as well */
+  width: 771px; /*980px;*/
+  height: 310px; /*454px;*/
+   }
 
 .slide-show-render .btn-prev {
   background-image: url("../images/hero_prev.gif"); }
@@ -425,8 +428,9 @@ html[xmlns] .slides {
   width: 350px; }
 .slide-show-render-full .slide-content,
 .slide-show-render-full .drop-indicator {
-  width: 980px;
-  height: 450px; }
-.slide-show-render-full .slide-image {
   max-width: 980px;
   max-height: 450px; }
+.slide-show-render-full .slide-image {
+  max-width: 980px;
+  max-height: 450px;
+  }
